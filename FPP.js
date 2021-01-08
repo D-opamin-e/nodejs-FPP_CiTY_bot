@@ -4,7 +4,6 @@ Copyright 2018~.Dopamine.All rights reserved
  Dopamine#6657에게 모든 저작권이 존재하며 아래 하단의 소스들을 무단으로 수정 및 이용, 공유를 할 경우
  법적 처벌을 받으실 수 있습니다.
 */
-
 botconfig = require("./botconfig.json");
 const Discord = require('discord.js');
 const schedule = require('node-schedule');
