@@ -55,8 +55,7 @@ module.exports = async (client, oldMember, newMember) => {
         }
       })
     }
-  }
-  else if (newChannelName === null) {
+  } else if (newChannelName === null) {
     client.channels.get("741636935818149909")
       .send({
         embed: {
@@ -79,8 +78,8 @@ module.exports = async (client, oldMember, newMember) => {
     connection.query(`DELETE FROM discord_voice_log WHERE id="234395307759108106"`, function (err, result, fields) { //삭제 시작
       if (err) throw err;
     });
-  }
-  else {
+  } else {
+    if(newChannelName === oldChannelName) return;
     client.channels.get("741636935818149909")
       .send({
         embed: {
