@@ -116,5 +116,4 @@ client.on('message', async message => {
       command.run(client, message, args);
 
     });
-    // client.login(`NTg0NTk5MDE0NzEyODAzMzI5.XPNQQg.mUz3EoiZA7xKjpzuAWpkRxidPPU`);
-    client.login("NzI2NDA5MTAxMTcyNTM5NDMz.Xvc3MQ.0oZO81SQQSevLFkeRd9OZaZ4Hyk");
+   
