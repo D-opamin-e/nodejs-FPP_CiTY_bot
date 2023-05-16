@@ -1,9 +1,4 @@
-/*
-Copyright 2018~.Dopamine.All rights reserved
- Ｃｏｐｙｒｉｇｈｔ  ２０１８~．Ｄｏｐａｍｉｎｅ．Ａｌｌ ｒｉｇｈｔｓ ｒｅｓｅｒｖｅｄ．
- Dopamine#6657에게 모든 저작권이 존재하며 아래 하단의 소스들을 무단으로 수정 및 이용, 공유를 할 경우
- 법적 처벌을 받으실 수 있습니다.
-*/
+
 const { Client, Collection, Discord } = require("discord.js");
 const { config } = require("dotenv");
 const client = new Client();
